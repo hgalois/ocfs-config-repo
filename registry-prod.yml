@@ -1,0 +1,4 @@
+
+server:
+  context-path: /accounting
+  port: 8080
