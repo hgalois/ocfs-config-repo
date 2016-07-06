@@ -6,6 +6,8 @@ security:
       accessTokenUri: http://localhost:5000/auth/oauth/token
       grant-type: client_credentials
       scope: server
+    resource: 
+      tokenInfoUri: http://localhost:5000/auth/oauth/token
 
 spring:
   data:
