@@ -16,7 +16,7 @@ spring:
       username: user
       password: ocfs
       database: accounting
-      port: 27017
+      port: 27018
 
 eureka:
   client:
