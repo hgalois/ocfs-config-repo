@@ -1,7 +1,26 @@
+security:
+  oauth2:
+    client:
+      clientId: accounting
+      clientSecret: ocfs
+      accessTokenUri: http://localhost:5000/auth/oauth/token
+      grant-type: client_credentials
+      scope: server
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      username: user
+      password: ocfs
+      database: accounting
+      port: 27017
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+
 server:
   context-path: /accounting
   port: 8080
