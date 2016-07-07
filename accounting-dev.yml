@@ -1,3 +1,7 @@
+spring:
+  http:
+    encoding: utf-8
+
 security:
   oauth2:
     client:
